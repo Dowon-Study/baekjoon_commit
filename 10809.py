@@ -8,4 +8,4 @@ for i in range(len(string)):
     if answer[ord(string[i]) - 97] == -1:
         answer[ord(string[i]) - 97] = i
         
-print(*answer)
+print(*answer) 
