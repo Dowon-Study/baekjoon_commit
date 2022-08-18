@@ -15,7 +15,7 @@ while 1:
             result[0] += 1
         elif 48 <= ord(i) <= 58:
             result[2] += 1
-        else:
+        else: 
             result[3] += 1
 
     print(*result)
