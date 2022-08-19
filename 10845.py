@@ -12,7 +12,7 @@ for _ in range(count):
         else:
             print(-1)
     if command[0] == "size":
-        print(len(stack))
+        print(len(stack)) 
     if command[0] == "empty":
         if stack:
             print(0)
