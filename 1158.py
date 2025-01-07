@@ -10,4 +10,5 @@ while len(people):
     else:
         result.append(str(people.pop(index)))
         index += num[1] -1
+
 print("<", ", ".join(result), ">",sep='')
