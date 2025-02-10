@@ -9,3 +9,4 @@ for i in range(len(string)):
         answer[ord(string[i]) - 97] = i
         
 print(*answer)  
+
